@@ -15,7 +15,6 @@ from utils import savebest_weights
 from dataset import MySet
 from network import model
 from torch.utils.data import DataLoader
-import pandas as pd
 
 
 def main(args):
