@@ -15,11 +15,11 @@ from utils import savebest_weights
 from dataset import MySet
 from network import model
 from torch.utils.data import DataLoader
-
 import pandas as pd
 
 
 def main(args):
+    # 主文件
     # 建立文件夹和文件
     output_path = "output_test/"+args.name
     txt_path = 'data/txt'+str(args.cv_index)
