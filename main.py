@@ -18,7 +18,7 @@ from torch.utils.data import DataLoader
 
 
 def main(args):
-    # 建立文件夹和文件
+    # 建立文件夹
     output_path = "output_test/"+args.name
     txt_path = 'data/txt'+str(args.cv_index)
     result_path = os.path.join(output_path, "result")
